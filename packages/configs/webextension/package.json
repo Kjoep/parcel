@@ -23,5 +23,10 @@
   },
   "peerDependencies": {
     "@parcel/core": "^2.5.0"
+  },
+  "@parcel/bundler-default": {
+    "minBundles": 10000000,
+    "minBundleSize": 3000,
+    "maxParallelRequests": 20
   }
 }
